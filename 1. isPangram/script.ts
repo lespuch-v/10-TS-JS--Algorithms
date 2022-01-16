@@ -13,7 +13,7 @@ function isPangram(str) {
   }
   for(let i = 0; i < str.length; i++){
       if(str[i] != " "){
-          stringArr.push(str[i].toLocaleLowerCase()).to
+          stringArr.push(str[i].toLocaleLowerCase())
       }
   }
 
